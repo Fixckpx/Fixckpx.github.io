@@ -34,6 +34,9 @@ nav ul {
     overflow: hidden; /* Hide overflow content */
     background: rgba(0, 0, 0, 0.3); /* Set background color with transparency */
     width: 100%; /* Set width to 100% */
+    position: fixed; /* เพิ่ม property position: fixed */
+    top: 0; /* ให้ตำแหน่งด้านบนเท่ากับ 0 */
+    left: 0; /* ให้ตำแหน่งด้านซ้ายเท่ากับ 0 */
 }
 
 /* Styling for the first child list item */
