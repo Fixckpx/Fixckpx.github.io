@@ -90,10 +90,15 @@ footer {
 
 /* Styling for image */
 img {
-    max-width: 50%; /* Set max width */
-    height: auto; /* Maintain aspect ratio */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    width: 100%; /* Set width to 50% */
+    height: auto; /* Set height to 30% */
     display: block; /* Display as block element */
-    margin: 0 auto; /* Center horizontally */
+    /*max-width: 100%; /* Set max width */
+    /*height: auto; /* Maintain aspect ratio */
+    /*display: block; /* Display as block element */
+    /*margin: 0 auto; /* Center horizontally */
 }
 
 /* Styling for reference links */
